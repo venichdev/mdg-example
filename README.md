@@ -1,373 +1,215 @@
-# Master's Thesis - Torque Vectoring Control for Energy-Efficient Electric Autonomous Vehicles
+# Master's Degree Guide - Example Repository
 
-**Institution:** Naresuan University
-**Program:** Master's Degree in Engineering
-**Research Area:** Control Systems, Electric Vehicles, Autonomous Systems
+This repository demonstrates a comprehensive framework for organizing and conducting Master's thesis research. It provides a structured approach with templates, guides, and best practices for graduate students.
 
----
+## Overview
 
-## Research Overview
+This is an **example implementation** of a Master's thesis framework for the research topic:
 
-### Field Areas
-- **Control Systems Engineering**
-- **Torque Vectoring Control**
-- **Energy Consumption Optimization**
-- **Electric Vehicle Technology**
-- **Autonomous Vehicles**
-- **Advanced Driver Assistance Systems (ADAS)**
+**"Torque Vectoring Control for Energy-Efficient Electric Autonomous Vehicles"**
 
-### Research Focus
-This thesis investigates intelligent torque vectoring control strategies for electric vehicles that optimize energy consumption while maintaining vehicle stability and performance, with integration of autonomous driving and ADAS capabilities.
+The framework can be adapted for any Master's degree research project in engineering, computer science, or related technical fields.
 
----
+## What's Inside
 
-## Folder Structure
+### Test_Thesis_Topic_01/
+A complete thesis organization structure with:
+
+- **7-Phase Research Framework** - From problem definition to conclusions
+- **Detailed Templates** - Ready-to-use guides for each phase
+- **24-Month Timeline** - Structured schedule for a 2-year Master's program
+- **Quality Checkpoints** - Verification points at each stage
+- **Best Practices** - Do's and don'ts for academic research
+- **Tool Recommendations** - Software and resources for research
+
+## Repository Structure
 
 ```
-Test_Thesis_Topic_01/
-├── README.md                          (This file)
-├── TOPIC_INFO.md                      (Research area documentation)
-│
-├── 01_Problem_Definition/
-│   └── 01_Research_Topic.md          (Problem statement, research questions, objectives)
-│
-├── 02_Literature_Review/
-│   └── 01_Literature_Organization.md  (Framework for organizing papers and references)
-│
-├── 03_Methodology/
-│   └── 01_Research_Methodology.md     (Detailed methodology documentation)
-│
-├── 04_Implementation/
-│   └── [Your code, models, and implementation files]
-│
-├── 05_Results/
-│   └── 01_Results_Template.md         (Framework for presenting results)
-│
-├── 06_Analysis/
-│   └── 01_Discussion_Template.md      (Framework for analysis and discussion)
-│
-├── 07_Conclusions/
-│   └── 01_Conclusion_Template.md      (Framework for conclusions)
-│
-├── References/
-│   └── [Your bibliography and reference materials]
-│
-└── Appendices/
-    └── [Supplementary materials, code listings, raw data]
+mdg-example/
+├── README.md (this file)
+└── Test_Thesis_Topic_01/
+    ├── README.md                          # Main guide and instructions
+    ├── TOPIC_INFO.md                      # Research area documentation
+    │
+    ├── 01_Problem_Definition/             # Research questions and objectives
+    ├── 02_Literature_Review/              # Literature organization framework
+    ├── 03_Methodology/                    # Research methodology details
+    ├── 04_Implementation/                 # Code and models
+    ├── 05_Results/                        # Results presentation framework
+    ├── 06_Analysis/                       # Analysis and discussion framework
+    ├── 07_Conclusions/                    # Conclusions framework
+    │
+    ├── References/                        # Bibliography management
+    └── Appendices/                        # Supplementary materials
 ```
 
----
+## How to Use This Framework
 
-## How to Use This Structure
+### Option 1: Use as Template (Recommended)
+1. **Fork or download** this repository
+2. **Rename** `Test_Thesis_Topic_01/` to match your thesis topic
+3. **Customize** the content in each folder for your specific research
+4. **Follow** the phase-by-phase guide in the main README
 
-### Phase 1: Problem Definition (Month 1-2)
-1. Open `01_Problem_Definition/01_Research_Topic.md`
-2. Fill in your specific research focus
-3. Define clear, SMART research questions
-4. Get advisor approval before proceeding
+### Option 2: Study the Structure
+1. Browse through the folders to understand the organization
+2. Read the templates to see what each phase requires
+3. Adapt the structure to fit your institution's requirements
+4. Create your own version based on this example
 
-### Phase 2: Literature Review (Month 2-4)
-1. Use `02_Literature_Review/01_Literature_Organization.md` as your guide
-2. Search for papers using the provided keywords
-3. Organize papers by category
-4. Create comparison tables
-5. Identify research gaps
-6. Document all papers in a reference manager (Zotero/Mendeley)
+## Key Features
 
-### Phase 3: Methodology Design (Month 4-6)
-1. Open `03_Methodology/01_Research_Methodology.md`
-2. Review the Kothari research process framework (Section 0)
-3. Understand the iterative nature and feedback mechanisms
-4. Detail your vehicle model and system architecture
-5. Specify your control algorithm
-6. Define performance metrics
-7. Design experiments and scenarios
-8. Get methodology approved by advisor
+### Comprehensive Coverage
+- Covers all phases from initial problem definition to final thesis submission
+- Includes both research methodology and practical implementation guidance
+- Provides writing templates for each major chapter
 
-### Phase 4: Implementation (Month 6-12)
-1. Create folder structure in `04_Implementation/` for your code
-2. Implement vehicle model (MATLAB/Python)
-3. Implement control algorithms
-4. Implement baseline methods for comparison
-5. Create test scenarios
-6. Version control: Use Git for code management
+### Practical Timelines
+- 24-month schedule aligned with typical Master's programs
+- Milestone tracking and progress checkpoints
+- Realistic time allocations for each phase
 
-### Phase 5: Experimentation & Results (Month 12-18)
-1. Run experiments according to your methodology
-2. Collect all data systematically
-3. Use `05_Results/01_Results_Template.md` to organize findings
-4. Create high-quality figures and tables
-5. Document all results objectively (no interpretation yet)
+### Quality Assurance
+- Built-in quality checkpoints after each phase
+- Research integrity guidelines
+- Validation strategies and best practices
 
-### Phase 6: Analysis & Discussion (Month 18-20)
-1. Use `06_Analysis/01_Discussion_Template.md` as framework
-2. Interpret your results
-3. Compare with literature
-4. Discuss limitations honestly
-5. Answer research questions explicitly
+### Flexibility
+- Templates are frameworks, not rigid requirements
+- Adaptable to different research methodologies
+- Compatible with various thesis formats and requirements
 
-### Phase 7: Conclusion & Writing (Month 20-24)
-1. Complete all other chapters first
-2. Use `07_Conclusions/01_Conclusion_Template.md`
-3. Write abstract LAST
-4. Proofread entire thesis multiple times
-5. Get feedback from advisor and peers
+## Who Should Use This
 
----
+This framework is designed for:
+
+- **Master's students** starting their thesis research
+- **Graduate advisors** looking for structured guidance for students
+- **Research groups** wanting a standardized thesis organization
+- **Academic institutions** developing thesis guidelines
+
+## Applicable Research Areas
+
+While the example focuses on electric vehicle control systems, this framework is applicable to:
+
+- Control Systems Engineering
+- Robotics and Automation
+- Computer Science and AI/ML
+- Electrical and Electronic Engineering
+- Mechanical Engineering
+- Any technical research requiring simulation/implementation
+
+## Getting Started
+
+1. **Read** [Test_Thesis_Topic_01/README.md](Test_Thesis_Topic_01/README.md) for the complete guide
+2. **Start with** Phase 1: [Problem Definition](Test_Thesis_Topic_01/01_Problem_Definition/01_Research_Topic.md)
+3. **Follow** the timeline and checkpoints
+4. **Adapt** the templates to your specific needs
 
 ## Key Principles
 
-### ✓ DO:
-- Understand the iterative research process (Kothari framework)
-- Use templates as guides, not rigid structures
-- Document everything as you go, including iterations
-- Expect to cycle back through research phases
-- Keep raw and processed data separate
-- Back up your work regularly (3-2-1 rule)
-- Version control your code and important documents
-- Ask for feedback early and often
-- Be honest about limitations
-- Follow the research methodology guide
+### Research Organization
+- Systematic folder structure for all research materials
+- Version control for code and documents
+- Clear separation of raw data, processed data, and analysis
 
-### ✗ DON'T:
-- Don't fabricate or manipulate data
-- Don't skip validation steps
-- Don't wait until the end to start writing
-- Don't ignore negative results
-- Don't overstate your contributions
-- Don't plagiarize (cite everything properly)
-- Don't work in isolation (communicate with advisor)
+### Documentation
+- Document everything as you progress
+- Maintain detailed research notebooks
+- Keep track of decisions and rationale
 
----
+### Quality Focus
+- Follow rigorous research methodology
+- Validate results thoroughly
+- Report findings honestly (including negative results)
 
-## Timeline Suggestion (2-Year Master's Program)
+### Time Management
+- Start writing early, not at the end
+- Set regular milestones and deadlines
+- Build in buffer time for unexpected issues
 
-### Year 1
-**Semester 1 (Months 1-6):**
-- Topic selection and problem definition
-- Literature review
-- Methodology design
-- Proposal defense
+## Timeline Overview
 
-**Semester 2 (Months 7-12):**
-- Model development and implementation
-- Initial testing and debugging
-- Preliminary results
-- Mid-program review
+**Year 1:**
+- Semester 1: Topic selection, literature review, methodology design
+- Semester 2: Implementation, initial testing, preliminary results
 
-### Year 2
-**Semester 3 (Months 13-18):**
-- Full experimental campaign
-- Data collection and validation
-- Additional experiments for edge cases
-- Begin writing results chapter
+**Year 2:**
+- Semester 3: Full experiments, data collection, analysis
+- Semester 4: Writing, revisions, defense preparation
 
-**Semester 4 (Months 19-24):**
-- Complete analysis and discussion
-- Write all chapters
-- Multiple revision rounds
-- Thesis defense preparation
-- Final submission
-
----
-
-## Quality Checkpoints
-
-### After Problem Definition:
-- [ ] Problem is clear, significant, and original
-- [ ] Research questions are SMART
-- [ ] Scope is feasible within timeframe
-- [ ] Advisor has approved
-
-### After Literature Review:
-- [ ] Major works in field are covered
-- [ ] Research gap is clearly identified
-- [ ] Your contribution is differentiated
-- [ ] References are current (mostly last 5 years)
-
-### After Methodology:
-- [ ] Method will answer research questions
-- [ ] Validation strategy is adequate
-- [ ] Variables are properly controlled
-- [ ] Reproducibility is ensured
-
-### After Implementation:
-- [ ] Code is documented and version-controlled
-- [ ] Model is validated against references
-- [ ] Baseline methods are properly implemented
-- [ ] Test scenarios are comprehensive
-
-### After Results:
-- [ ] Data is sufficient and reliable
-- [ ] Figures are publication-quality
-- [ ] Statistical analysis is appropriate
-- [ ] Results can be reproduced
-
-### Before Submission:
-- [ ] All research questions are answered
-- [ ] Contributions are clearly stated
-- [ ] Limitations are honestly discussed
-- [ ] Writing is clear and well-organized
-- [ ] All figures/tables are properly labeled
-- [ ] References are complete and formatted correctly
-- [ ] Advisor has approved final version
-
----
-
-## Tools and Software
+## Tools and Resources Mentioned
 
 ### Reference Management
-- Zotero (recommended - free, open-source)
+- Zotero (recommended)
 - Mendeley
 - EndNote
 
 ### Writing
-- LaTeX with Overleaf (recommended for technical thesis)
-- Microsoft Word (ensure you know how to use styles properly)
-- Grammarly for grammar checking
+- LaTeX with Overleaf (for technical documents)
+- Microsoft Word (with proper style management)
+- Grammarly
 
-### Simulation and Analysis
-- MATLAB/Simulink (common in EV and control research)
-- Python with NumPy, SciPy, Matplotlib, Pandas
-- Vehicle simulation: CarSim, IPG CarMaker, or similar
+### Research & Analysis
+- MATLAB/Simulink
+- Python (NumPy, SciPy, Matplotlib, Pandas)
+- Domain-specific simulation tools
 
 ### Version Control
-- Git + GitHub/GitLab (for code and LaTeX documents)
+- Git + GitHub/GitLab
 
-### Data Management
-- Structured folder organization
-- README files for datasets
-- Backup: Cloud storage + external drive
+## Support and Contribution
 
----
+This is an open example meant to help students organize their research. Feel free to:
 
-## Resources
+- Adapt it for your own thesis
+- Share it with fellow students
+- Suggest improvements via issues or pull requests
+- Create your own variations for different fields
 
-### Naresuan University Resources
-- Thesis format guidelines: [Check with your department]
-- Library database access: [IEEE Xplore, ScienceDirect, etc.]
-- Computing resources: [Check availability]
-- Writing center: [If available]
+## Important Notes
 
-### Research Methodology
-- See main repository: `RESEARCH_METHODOLOGY_GUIDE.md`
-- Kothari research process framework with 7 phases and feedback loops
-- Phase-by-phase detailed instructions
-- Common pitfalls and how to avoid them
-- Quality assurance checkpoints
-- Understanding iterative and cyclical research process
+### What This Framework Provides
+- Organization structure and templates
+- Research methodology guidance
+- Best practices and quality checkpoints
+- Timeline and milestone suggestions
 
-### External Resources
-- **Connected Papers**: Visualize paper relationships
-- **Research Rabbit**: Citation tracking
-- **Semantic Scholar**: AI-powered paper search
-- **arXiv**: Preprints in control and robotics
-- **IEEE Xplore**: Premier engineering database
-- **Google Scholar**: Broad academic search
+### What You Still Need to Do
+- Conduct original research
+- Write your actual thesis content
+- Work closely with your advisor
+- Follow your institution's specific requirements
+- Adapt the framework to your field and methodology
 
----
+## Related Resources
 
-## Getting Help
+- **Main Repository**: Check if there's a main `master-degree-guide` repository with additional resources
+- **Institution Guidelines**: Always follow your university's official thesis requirements
+- **Academic Databases**: IEEE Xplore, ScienceDirect, Google Scholar, etc.
+- **Writing Resources**: Refer to academic writing guides specific to your field
 
-### When Stuck on Research Direction:
-1. Review your research questions
-2. Consult recent review papers
-3. Discuss with your advisor
-4. Present at group meetings for feedback
+## Acknowledgments
 
-### When Stuck on Implementation:
-1. Check documentation and examples
-2. Search for similar implementations on GitHub
-3. Post specific questions on Stack Overflow
-4. Consult with peers or senior students
+This framework is designed to help Master's students navigate the thesis process systematically and successfully. It emphasizes:
+- Research integrity
+- Methodological rigor
+- Practical organization
+- Realistic timelines
 
-### When Stuck on Writing:
-1. Review examples from published theses
-2. Use templates provided
-3. Get feedback from advisor
-4. Consider writing center services
+## License
+
+This example framework is provided as-is for educational and research purposes. Adapt it freely for your academic work.
 
 ---
 
-## Important Reminders
-
-### Research Integrity
-- Never fabricate or falsify data
-- Cite all sources properly
-- Report negative results honestly
-- Maintain detailed lab notebooks
-- Be transparent about limitations
-
-### Time Management
-- Start writing early (don't wait until end)
-- Set weekly/monthly goals
-- Build in buffer time for unexpected issues
-- Don't underestimate writing and revision time
-
-### Communication
-- Meet with advisor regularly
-- Document all meetings and decisions
-- Ask questions when unclear
-- Seek feedback early and often
-
-### Self-Care
-- Research is a marathon, not a sprint
-- Take breaks and maintain work-life balance
-- Build a support network
-- Celebrate small milestones
+**Status**: Example framework ready for adaptation
+**Last Updated**: 2025-11-07
+**Use Case**: Master's thesis organization and planning
+**Target Audience**: Graduate students and advisors
 
 ---
 
-## Progress Tracking
+**Questions?** Review the detailed guide in [Test_Thesis_Topic_01/README.md](Test_Thesis_Topic_01/README.md)
 
-### Create a tracking document with:
-- [ ] Weekly progress log
-- [ ] Meeting notes with advisor
-- [ ] To-do lists and priorities
-- [ ] Timeline with milestones
-- [ ] Issues and how you resolved them
-
-### Regular Self-Assessment:
-- Monthly: Review progress against timeline
-- Quarterly: Assess if research questions are being answered
-- Semester: Evaluate overall trajectory and adjust if needed
-
----
-
-## Contact Information
-
-**Student:** [Your name]
-**Advisor:** [Advisor name]
-**Co-advisor:** [If applicable]
-**Department:** [Department name]
-**Institution:** Naresuan University
-
----
-
-## Version History
-
-| Date | Version | Changes |
-|------|---------|---------|
-| 2025-11-07 | 1.0 | Initial structure and templates created |
-| 2025-11-08 | 1.1 | Integrated Kothari research process framework into methodology |
-| | | |
-
----
-
-## Notes
-
-This folder structure and templates are designed to guide you through the thesis process systematically. The templates are frameworks - adapt them to your specific needs and your advisor's preferences.
-
-Remember:
-- **Quality over quantity** - A focused, rigorous study is better than broad, shallow work
-- **Reproducibility matters** - Document everything thoroughly
-- **Limitations are normal** - Every study has them; acknowledge them honestly
-- **Your contribution is unique** - Even if incremental, it advances the field
-
-**Good luck with your research!**
-
----
-
-**Status:** Ready for data collection and customization
-**Last Updated:** 2025-11-07
-**Next Step:** Fill in your specific research details in `01_Problem_Definition/01_Research_Topic.md`
+**Getting Started?** Begin with [01_Problem_Definition](Test_Thesis_Topic_01/01_Problem_Definition/01_Research_Topic.md)
